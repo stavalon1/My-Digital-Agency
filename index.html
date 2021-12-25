@@ -23,19 +23,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#top">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#about-us">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TESTIMONIALS</a>
+                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#footer">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -78,7 +78,7 @@
             <div class="col-md-4 services">
                 <img src="images/service3.png" class="service-img">
                 <h4>Animated Ads</h4>
-                <p>Hello my name is Stav and I love developing websites using different technologies.
+                <p>Hello my name is Stav and I love developing responsive websites using different technologies.
                 Please follow me on social media.</p>
             </div>
         </div>
@@ -89,11 +89,87 @@
 <section id="about-us">
     <div class="container">
         <h1 class="title text-center">WHY CHOOSE US ?</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="about-title">Why we're different</p>
+              <ul>
+                <li>Understand our client's business goal first</li>
+                <li>Believe in doing business with honesty</li>
+                <li>We cereate a winning contect startegy</li>
+                <li>We protect your online reputation</li>
+                <li>We deliver on time</li>
+              </ul>
+          </div>
+          <div class="col-md-6">
+            <img src="images/network.png" class="img-fluid">
+          </div>
+        </div>
     </div>
-
 </section>
-
-
-
+<!-----------Testimonials---------->
+<section id="testimonials">
+<div class="container">
+  <h1 class="title text-center">WHAT CLIENTS SAY</h1>
+  <div class="row offset-1">
+    <div class="col-md-5 testimonials">
+      <p>Hello my name is Stav and I love developing responsive websites using different technologies.
+        Please follow me on social media.</p>
+        <img src="images/user1.jpg">
+        <p class="user-details"><b>Daniella Doe</b><br> Co-founder at Meta</p>
+    </div>
+    <div class="col-md-5 testimonials">
+      <p>Hello my name is Stav and I love developing responsive websites using different technologies.
+        Please follow me on social media.</p>
+        <img src="images/user2.jpg">
+        <p class="user-details"><b>Stav Alon</b><br> Director at Meta</p>
+    </div>
+  </div>
+</div>
+</section>
+<!-----------Social Media section---------->
+<section id="social-media">
+  <div class="container text-center">
+    <p>FIND US ON SOCIAL MEDIA</p>
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook-icon.png"></a>
+      <a href="#"><img src="images/instagram-icon.png"></a>
+      <a href="#"><img src="images/twitter-icon.png"></a>
+      <a href="#"><img src="images/whatsapp-icon.png"></a>
+      <a href="#"><img src="images/linkedin-icon.png"></a>
+      <a href="#"><img src="images/snapchat-icon.png"></a>
+    </div>
+  </div>
+</section>
+<!-----------Footer section---------->
+<section id="footer">
+  <img src="images/wave2.png" class="footer-img">
+  <div class="row">
+    <div class="col-md-4 footer-box">
+      <img src="images/demo-logo.png">
+      <p>Hello my name is Stav and I love developing responsive websites using different technologies.
+        Please follow me on social media.
+        Press the bell icons to get notifiactions</p>
+    </div>
+    <div class="col-md-4 footer-box">
+      <p><b>CONTACT US</b></p>
+      <p><i class="fa fa-map-marker"></i> Beer Sheva, Israel</p>
+      <p><i class="fa fa-envelope-o"></i> stavalon31@gmail.com</p>
+      <p><i class="fa fa-linkedin-square"></i> http://linkedin.com/in/stav-alon</p>
+      <p><i class="fa fa-phone"></i> Phone: 053-5284289</p>
+    </div>
+    <div class="col-md-4 footer-box">
+      <p><b>SUBSCRIBE NEWSLETTER</b></p>
+      <input type="email" class="form-control" placeholder="Your Email">
+      <button type="button" class="btn btn-primary">Subscribe</button>   
+    </div>
+  </div>
+    <hr>
+    <p class="copyright">The Website was developed by Stav Alon.</p>
+</section>
+<!-----------Smooth Scroll---------->
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </body>
 </html>
